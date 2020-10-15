@@ -1,7 +1,8 @@
 # Binary-Numbers
 So this is a homework assignment for my CSC 211 class.
 ***************************************************************************
-Create a class BinaryNumber to represent a binary number, with the following members
+Create a class BinaryNumber to represent a binary number, with the following members:
+
 An integer pointer digits to represent a binary number, an array will be dynamically allocated according to the length of the binary number, for example: a binary number 1010 is stored in an array {1, 0, 1, 0} with size of 4, a binary number 100010 is stored in an array {1, 0,  0, 0, 1, 0} with size of 6. The array will be referenced by digits.
 
 An integer length represents the length of the above array.
