@@ -44,28 +44,19 @@ public:
         }
     }
 
-    int decimalValue() {
+    int decimalValue() {//calculate decimal value of binary number.
         int total = 0;
-        //calculate decimal value of binary number.
-        //probably going to be given an array as parameter to read numbers.
+        
+       /*  1) read amount of elements in array. The total length will be the starting point of the pow function
+           2) next minus 1 from the length and that will be the NEW parameter for the pow function 
+              -> ex pow(2,length)
 
-    //read amount of elements in array. The total length will be the starting point of the pow function
-
-    //next minus 1 from the length and that will be the NEW parameter for the pow function 
-
-    //ex pow(2,length)
-
-    //CONDTION IF THE contents OF THE ARRAY ARE OR IS 0
-    //if(digits[i] = 0)
-      //skip move on to next value
-      //keep going with the loop that gets the 2nd parameter for that pow function
-
-
-    /*for(int i; i < length; i++){
-          digits[i];
-          pow(2,length);
-          length-1;
-        }*/
+            CONDTION IF THE contents OF THE ARRAY ARE OR IS 0:
+            
+            1) if(digits[i] = 0)
+            2) skip move on to next value
+            3) keep going with the loop that gets the 2nd parameter for that pow function
+*/
 
         for (int i; i < length; i++) {
             if (digits[length - i] == 1)
